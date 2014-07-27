@@ -1,16 +1,18 @@
 {
+  "logo": "Quantcast",
   "name": "quantcast",
-  "version": "0.0.1",
   "repo": "logo/quantcast",
+  "description": "The Quantcast logo.",
+  "version": "0.0.2",
+  "license": "MIT",
+  "styles": [
+    "index.css"
+  ],
   "images": [
     "images/logo-monochromatic.svg",
     "images/logo.svg"
   ],
-  "styles": [
-    "index.css"
-  ],
-  "development": {
+  "dependencies": {
     "logo/logo": "*"
-  },
-  "license": "MIT"
+  }
 }
