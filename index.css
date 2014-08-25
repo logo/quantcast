@@ -1,18 +1,2 @@
-
-/**
- * Quantcast
- */
-
-.logo[data-logo="Quantcast"] {
-  width: 4.421600965em;
-  /* (277.91/49.72) * (1-.15-.05) - .05 */
-}
-
-.logo[data-logo="Quantcast"] > * {
-  background-image: url(images/logo.svg);
-  margin: .15em -.05em .05em 0;
-}
-
-.logo[data-logo="Quantcast"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
